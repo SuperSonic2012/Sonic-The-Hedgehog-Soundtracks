@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-image: url(background1.jpg);
+    font-family: "Roboto", serif;
+}
+.game_card_list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.game_card_list li {
+    width: 100%;
+    max-width: 350px;
+    list-style: none;
+    display: flex;
+    transition: 0.4s;
+}
+.game_card_list li:hover{
+    transform: scale(0.95);
+}
+.game_card_list li a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #dddddd;
+    text-align: center;
+}
+.game_card_list li a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 100%;
+    background-color: #e4e4e4;
+}
+
+footer{
+    background-color: antiquewhite;
+    list-style: none;
+    text-align: center;
+    
+}
+
